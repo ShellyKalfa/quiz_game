@@ -1,0 +1,50 @@
+input{
+    border-radius: 8px;
+    border: #0a8eadb8 solid;
+    height: 4vh;
+}
+label{
+    font-size: 1.4rem;
+}
+.centerLogInDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.centerDiv{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 6vw;
+    width: 40vw;
+    height: 40vh;
+    border: solid;
+    background-color: rgba(108, 201, 218, 0.77);
+}
+.divButton{
+    width: 18vw;
+    height: 6vh;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bae1e0;
+    color: #017f97;
+    text-align: center;
+    box-shadow: #017f97 3px 4px 3px 3px;
+    font-size: 1.5rem;
+    cursor: default
+}
+.divButton:hover{
+    background-color: #f8ffff;
+}
+.signInDiv{
+    padding: 2vh;
+}
+.homeButton{
+    position: absolute;
+    right: 3vw;
+    top: 2vh;
+}

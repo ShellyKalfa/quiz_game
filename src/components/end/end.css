@@ -1,0 +1,66 @@
+.centerEndDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.centerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 8vw;
+    width: 40vw;
+    height: 40vh;
+    border: solid;
+    background-color: rgba(108, 201, 218, 0.77);
+    background-color: #a9d7ff;
+}
+.divButton{
+    width: 20vw;
+    height: 6vh;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bae1e0;
+    color: #017f97;
+    text-align: center;
+    box-shadow: #017f97 3px 4px 3px 3px;
+    font-size: 1.5rem;
+    cursor: default
+}
+.divButton:hover{
+    background-color: #f8ffff;
+}
+.center{
+    /*font-size: 2rem;*/
+    font-size: 2vmax;
+    display: flex;
+    gap: 1vw;
+    margin: 2vh;
+    /*flex-direction: row-reverse;*/
+}
+.userAnswerDivNone{
+    position: absolute;
+    top: 9vh;
+    display: none;
+}
+.userAnswerDivShow{
+    position: absolute;
+    top: 12vh;
+    display: block;
+}
+.userAnswerQuestion{
+    background-color: #a9d7ff;
+    width: 76vw;
+    height: 70vh;
+    border: solid;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 18px;
+}
+.questionLabel{font-size: 1.5rem;}

@@ -1,0 +1,21 @@
+.centerDiv{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 6vw;
+}
+.centerSignInDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.logInDiv{
+    padding: 2vh;
+}
+.homeButton{
+    position: absolute;
+    right: 3vw;
+    top: 2vh;
+}

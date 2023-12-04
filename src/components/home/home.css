@@ -1,0 +1,38 @@
+body{
+    background-color: #6cc9da;
+    text-align: center;
+    color: #01657d;
+    cursor: default
+
+}
+.centerDivHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 3vh;
+}
+a{
+   font-size: medium;
+    color: inherit;
+    text-decoration: none;
+}
+.divButton{
+    width: 18vw;
+    height: 6vh;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bae1e0;
+    color: #017f97;
+    text-align: center;
+    box-shadow: #017f97 3px 4px 3px 3px;
+    cursor: default
+
+
+}
+.textDiv{
+    color: #01657d;
+}
